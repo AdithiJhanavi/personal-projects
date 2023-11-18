@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-size: 100% 100%;
+    background: url(https://thumbs.dreamstime.com/z/multi-colored-program-text-animation-large-text-changing-program-words-codes-software-form-large-encoded-text-multi-222554914.jpg?w=992);
+}
+/*
+form{
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    background-color: rgb(171, 118, 118);
+    padding: 0px 75px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.block-display{
+    display: block;
+}
+
+label{
+    font-size: 16px;
+    margin: 20px 0px 4px 0px;
+}
+
+input[type="text"], input[type="tel"], select{
+    width: 300px;
+    height: 40px;
+    border: 1px solidblack;
+    padding: 0px 5px;
+}
+
+.rent-label{
+    margin: 10px;
+}
+
+#button{
+    display: block;
+    background-color: rgb(212, 212, 216);
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px;
+    margin: 40px auto;
+}
+
+h1{
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.6em;
+    width: 280px;
+}
+/* 
+.emoji-face{
+    background: rgb(215, 173, 173);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px black;
+    position: relative;
+}
+
+.eye1{
+    background-color: black;
+    height: 15px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+
+.eye2{
+    background-color: black;
+    height: 15px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+}
+
+.mouth{
+    background-color: rgb(142, 29, 29);
+    height: 34px;
+    width: 70px;
+    border-radius: 0 0 90px 90px;
+    position: absolute;
+    top: 52%;
+    left: 16%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue{
+    background-color: rgb(159, 31, 57);
+    height: 34px;
+    width: 34px;
+    border-radius: 40%;
+position: absolute;
+top: 20;
+left: 15%;
+z-index: 2;
+}
+
+.mouth-shock{
+    background-color: brown;
+    height: 25px;
+    width: 23px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.mouth-speechless{
+    background-color: black;
+    height: 5px;
+    width: 65%;
+   position: absolute;
+   top: 60%;
+   left: 15%;
+}
+
+.emoji-face{
+    float: left;
+    margin: 0px 20px 0px 0px;
+}
+
+/* Fixing the emoji */
+.wrapper{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.emoji-face:hover {
+    /*background: #3a2e22;*/
+    transform: scale(1.25);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(241, 220, 213);
+    align-items: center;
+    font-size: large;
+background-color: azure;
+}

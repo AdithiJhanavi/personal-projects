@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://img.freepik.com/premium-photo/baby-kids-toys-background-wooden-train-stacking-toy-rainbow-plane-colorful-blocks-white-background_206881-274.jpg?w=900);
+    background-size: 100% 100%;
+ }
+
+ #toy1 {
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    height: 300px;
+    background-color: greenyellow;
+ }
+
+ #toy2 {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 500px;
+ }
+
+ form {
+    position: absolute;
+    top: 15%;
+    left: 65%;
+    background-color: rgb(235, 231, 226);
+    width: 400px;
+    padding: 0px 75px;
+    border-radius: 5px;
+    
+ }
+
+ .block-display {
+    display: block;
+ }
+
+ label {
+    font-size: 16px;
+    margin: 20px 0 px 4px 0 px;
+ }
+
+ input[type="text"], input[type="number"], select{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0px 5px;
+ }
+
+ .rent-label {
+    margin-left: 10px;
+ }
+
+ #button {
+    display: block;
+    background-color: rgb(188, 212, 147);
+    border-radius: 20px;
+    border: none;
+    padding: 15px 20px;
+    margin: 40px auto;
+ }
+
+ h1 {
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1.6em;
+    width: 280px ;
+ }
